@@ -25,7 +25,7 @@ sudo apt install docker.io
 
 <br />
 
-### 2. Installation
+### 2-1. Installation - GPU
 1) Pull Docker Image
 ```bash
 sudo docker pull sunnyineverywhere/fridge-ocr-flask
@@ -36,8 +36,25 @@ You can test the OCR demonstration on your recipt image by running the `Flask` a
 ```bash
 sudo docker run -d -p 5000:5000 sunnyineverywhere/fridge-ocr-flask
 ```
-- The demo is available in `localhost:5000/model` if you wish to test the result via `Postman`.
-- The demo is available in `localhost:5000/demo` if you wish to test the result by uploading the image via web.
+
+<br />
+
+### 2-2. Installation - CPU
+1) Pull Docker Image
+```bash
+sudo docker pull sunnyineverywhere/fridge-ocr-flask-cpu
+```
+
+2) Usage
+You can test the OCR demonstration on your recipt image by running the `Flask` api.
+```bash
+sudo docker run -d -p 5000:5000 sunnyineverywhere/fridge-ocr-flask-cpu
+```
+
+<br />
+
+> - The demo is available in `localhost:5000/model` if you wish to test the result via `Postman`.
+> - The demo is available in `localhost:5000/demo` if you wish to test the result by uploading the image via web.
 
 <br />
 
