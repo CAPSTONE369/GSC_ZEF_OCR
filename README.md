@@ -1,4 +1,4 @@
-# 🔆 OCR Repository of Zero Fridge
+# 🔆 OCR Repository of Zero Fridge.     
 **Zero Fridge** is an application which manages user's fridges by alarming of food subscription dates, and makes recording food bought easy by using the recipt OCR technology.  
 
 **✔️ This is the repository for the OCR flow; containing of `Text Detection`, `Text Recognition`, and `Key Information Extraction`.**  
