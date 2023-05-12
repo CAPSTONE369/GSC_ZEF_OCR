@@ -101,9 +101,8 @@ def model():
 
     print(pred_dict)
     # res = json.loads(pred_dict)
-    return json.dumps(pred_dict, ensure_ascii=False, indent=4)
-    # return json.dumps(pred_dict, ensure_ascii=False, indent=4)
-    # return pred_dict, 200 
+    return jsonify(pred_dict) # json.dumps(pred_dict, ensure_ascii=False, indent=4)
+   
 
 if __name__ == "__main__":
     app.debug=True
